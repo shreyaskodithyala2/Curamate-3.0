@@ -1,0 +1,118 @@
+<!doctype html>
+<!--
+  Curamate single-page interface, served by Flask at GET /.
+  Left: the 4 screens (intake -> confirm matches -> interview -> report), switched by static/app.js.
+  Right: live differential and the answers given so far.
+  Loads only local files (style.css, app.js) - no external fonts or scripts, so it works offline.
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Curamate</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <div class="logo">C</div>
+    <div>
+      <div class="brand-name">Curamate</div>
+      <div class="brand-sub">Offline clinical decision support</div>
+    </div>
+  </div>
+  <div class="status" id="status"><span class="pill">Checking services…</span></div>
+</header>
+
+<ol class="stepper" id="stepper">
+  <li data-step="intake" class="active"><span>1</span>Intake</li>
+  <li data-step="confirm"><span>2</span>Confirm symptoms</li>
+  <li data-step="interview"><span>3</span>Interview</li>
+  <li data-step="report"><span>4</span>Report</li>
+</ol>
+
+<main class="layout">
+  <!-- The 4 screens; only one is visible at a time -->
+  <section class="flow">
+
+    <!-- 1. Intake -->
+    <div class="card" id="step-intake">
+      <h2>Patient intake</h2>
+      <form id="intake-form" autocomplete="off">
+        <div class="row">
+          <label>Age <span class="req">*</span>
+            <input type="number" id="age" min="0" max="120" required placeholder="e.g. 34">
+          </label>
+          <label>Sex <span class="req">*</span>
+            <select id="sex" required>
+              <option value="">Select…</option><option value="F">Female</option><option value="M">Male</option>
+            </select>
+          </label>
+          <label>Travel abroad (last 4 weeks)
+            <select id="travel"><option value="unknown">Unknown</option><option value="no">No travel</option></select>
+          </label>
+        </div>
+        <label>Symptoms and history, in your own words <span class="req">*</span>
+          <textarea id="symptoms" rows="4" required
+            placeholder="e.g. sudden sharp chest pain, short of breath, coughing up blood, recent surgery, no fever"></textarea>
+        </label>
+        <p class="hint">Separate findings with commas. Write "no …" or "denies …" for negatives.</p>
+        <div class="actions"><button type="submit" class="primary" id="match-btn">Match symptoms</button></div>
+      </form>
+    </div>
+
+    <!-- 2. Confirm matches (RAG use 1) -->
+    <div class="card hidden" id="step-confirm">
+      <h2>Confirm matched symptoms</h2>
+      <p class="hint" id="match-info"></p>
+      <div id="matches"></div>
+      <div class="actions">
+        <button class="ghost" id="back-intake">Back</button>
+        <button class="primary" id="start-btn">Start interview</button>
+      </div>
+    </div>
+
+    <!-- 3. Interview (LightGBM + information gain) -->
+    <div class="card hidden" id="step-interview">
+      <div class="card-head">
+        <h2>Follow-up questions</h2>
+        <div class="counter" id="q-counter"></div>
+      </div>
+      <div id="question-area"></div>
+      <p class="reason" id="stop-reason"></p>
+      <div class="actions">
+        <button class="ghost" id="undo-btn">Undo last answer</button>
+        <button class="ghost" id="finish-btn">Finish now and report</button>
+      </div>
+    </div>
+
+    <!-- 4. Report (RAG use 2 + LLM) -->
+    <div class="card hidden" id="step-report">
+      <div id="report-area"></div>
+      <div class="actions">
+        <button class="ghost" id="back-interview">Back to interview</button>
+        <button class="ghost" onclick="window.print()">Print</button>
+        <button class="primary" id="new-btn">New patient</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Side panel: live differential (updated after every /api/step) and answer history -->
+  <aside class="side">
+    <div class="card">
+      <div class="card-head"><h3>Live differential</h3><span class="muted small" id="uncertainty"></span></div>
+      <div id="diff"><p class="muted">Appears once the interview starts.</p></div>
+    </div>
+    <div class="card">
+      <h3>Answers so far</h3>
+      <ul class="history" id="history"><li class="muted">None yet.</li></ul>
+    </div>
+  </aside>
+</main>
+
+<footer>Curamate is a research prototype trained on synthetic data (DDXPlus). It supports, and never replaces,
+  clinical judgement. Everything runs on this computer - no data leaves the device.</footer>
+
+<script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>

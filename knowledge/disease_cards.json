@@ -1,0 +1,448 @@
+{
+  "_about": {
+    "description": "Curamate clinical knowledge base: one card per DDXPlus condition. Text is SYNTHESIZED (written for this project) to align with the referenced public clinical guidance; it is not copied from those sources and has NOT been clinically reviewed. Review every card before any real-world use. Doses are deliberately limited; always defer to local protocols.",
+    "review_status": "unreviewed - synthesized for research/education",
+    "sections": ["overview", "red_flags", "next_steps", "management", "differentiate"]
+  },
+  "Anaphylaxis": {
+    "display": "Anaphylaxis",
+    "overview": "Anaphylaxis is a severe, rapid-onset and potentially life-threatening systemic allergic reaction, usually within minutes to a few hours of exposure to a trigger such as food, insect venom or a drug. It affects the airway, breathing and/or circulation and often involves the skin or mucosa: hives, flushing, and swelling of the lips, tongue or face.",
+    "red_flags": "Stridor, hoarse voice or throat tightness from upper-airway swelling; wheeze or respiratory distress; low blood pressure, collapse or loss of consciousness; rapidly progressing symptoms. Symptoms can return hours after apparent recovery (biphasic reaction).",
+    "next_steps": "Rapid ABCDE assessment with continuous monitoring of oxygen saturation, blood pressure and ECG. Mast-cell tryptase samples taken soon after onset and again within 1-2 hours can support the diagnosis but must never delay treatment.",
+    "management": "Call for emergency help and give intramuscular adrenaline (epinephrine) into the outer thigh immediately, repeating after 5 minutes if there is no improvement, per local protocol. Remove the trigger, position the patient (lying flat, or sitting up if breathing is difficult), give high-flow oxygen and IV fluids for shock. Observe after recovery, provide adrenaline auto-injectors and refer to an allergy service.",
+    "differentiate": "Acute asthma lacks skin or mucosal involvement and a clear allergen exposure. Scombroid poisoning follows eating spoiled fish and causes flushing and headache usually without airway swelling. Panic attacks lack hypotension, hives and angioedema. Vasovagal fainting causes pallor and a slow pulse rather than flushing and a fast pulse.",
+    "references": ["Resuscitation Council UK - Emergency treatment of anaphylaxis (2021)", "NICE CG134 Anaphylaxis", "World Allergy Organization anaphylaxis guidance", "NHS - Anaphylaxis"]
+  },
+  "Larygospasm": {
+    "display": "Laryngospasm",
+    "overview": "Laryngospasm is a sudden involuntary spasm of the vocal cords that partly or completely closes the airway, causing a high-pitched noise on breathing in (stridor) and difficulty breathing or speaking. Triggers include airway irritation from reflux, secretions or aspiration, irritant exposure, and anaesthesia or extubation. Episodes are usually brief.",
+    "red_flags": "Complete airway obstruction with no airflow, cyanosis or falling oxygen saturation, a prolonged episode, loss of consciousness, or breathlessness with frothy sputum after the episode (post-obstructive pulmonary oedema).",
+    "next_steps": "Assess airway patency and oxygenation. Look for triggers such as reflux, aspiration, a foreign body or allergic swelling. Recurrent episodes warrant ENT assessment with laryngoscopy and evaluation for laryngopharyngeal reflux.",
+    "management": "Calm reassurance, remove the trigger, sit upright and breathe slowly through the nose; give oxygen. In a medical setting, jaw thrust and positive-pressure oxygen are used; persistent spasm needs airway support by trained staff. Treat reflux if it contributes.",
+    "differentiate": "Epiglottitis has fever, drooling, painful swallowing and a muffled voice. Croup affects young children with a barking cough after a cold. Anaphylaxis has skin or mucosal signs and low blood pressure. Foreign body aspiration follows a sudden choking event.",
+    "references": ["StatPearls - Laryngospasm (NCBI Bookshelf)", "ENT UK patient guidance", "NHS"]
+  },
+  "Ebola": {
+    "display": "Ebola virus disease",
+    "overview": "Ebola virus disease is a severe, often fatal viral haemorrhagic fever spread by direct contact with blood or body fluids of infected people or animals. The incubation period is 2-21 days. It begins with sudden fever, fatigue, muscle pain, headache and sore throat, followed by vomiting, diarrhoea, rash and, in some patients, bleeding.",
+    "red_flags": "Fever within 21 days of travel to an affected area or contact with a suspected or confirmed case; unexplained bleeding or bruising; severe vomiting or diarrhoea with dehydration; shock or confusion.",
+    "next_steps": "Isolate immediately and use full infection-prevention protective equipment. Notify public health authorities urgently. Diagnosis is by RT-PCR in designated laboratories; also test for malaria and other causes of fever in returning travellers.",
+    "management": "Strict isolation with early, aggressive supportive care: fluids, electrolyte correction, oxygen and treatment of complications. Approved monoclonal antibody treatments for Zaire ebolavirus are available through specialist centres. Exposed contacts are traced and monitored for 21 days.",
+    "differentiate": "Malaria, typhoid, Lassa fever and other haemorrhagic fevers can look similar; travel, exposure history and laboratory testing distinguish them. Influenza lacks the haemorrhagic features and the exposure history.",
+    "references": ["WHO - Ebola virus disease fact sheet", "CDC - Ebola clinical guidance"]
+  },
+  "Possible NSTEMI / STEMI": {
+    "display": "Myocardial infarction (NSTEMI / STEMI)",
+    "overview": "A myocardial infarction (heart attack) is death of heart muscle caused by a blocked coronary artery. The typical presentation is central chest pain, pressure or heaviness lasting more than 15-20 minutes, often spreading to the arm, jaw or neck, with sweating, nausea or breathlessness. Women, older adults and people with diabetes may present atypically.",
+    "red_flags": "Ongoing chest pain, low blood pressure or shock, dangerous heart rhythms, acute heart failure, fainting, or ST elevation on the ECG.",
+    "next_steps": "Record a 12-lead ECG within 10 minutes of arrival, measure high-sensitivity troponin serially and start continuous cardiac monitoring. ST elevation (STEMI) requires immediate activation of the reperfusion pathway.",
+    "management": "Call emergency services. Give aspirin unless contraindicated, oxygen only if saturation is low, and pain relief, and arrange urgent transfer for reperfusion: primary PCI for STEMI within guideline time windows, and risk-guided angiography with antithrombotic therapy for NSTEMI.",
+    "differentiate": "Unstable angina presents similarly but troponin is not raised. Stable angina is triggered by exertion and settles with rest. Pulmonary embolism, aortic dissection, pericarditis (sharp pain changing with position) and oesophageal rupture are other dangerous causes of chest pain.",
+    "references": ["ESC Guidelines for acute coronary syndromes (2023)", "AHA/ACC Chest Pain Guideline (2021)", "NICE CG95 Recent-onset chest pain"]
+  },
+  "Acute pulmonary edema": {
+    "display": "Acute pulmonary oedema",
+    "overview": "Acute pulmonary oedema is fluid build-up in the lungs, most often from acute heart failure. It causes sudden severe breathlessness, breathlessness lying flat, cough with frothy or pink sputum, crackles on listening to the chest and anxiety. Non-cardiac causes include ARDS, high altitude and fluid overload in kidney failure.",
+    "red_flags": "Severe respiratory distress, low oxygen saturation, low blood pressure or cardiogenic shock, reduced consciousness, chest pain suggesting a heart attack, or a new abnormal heart rhythm.",
+    "next_steps": "Measure oxygen saturation, record an ECG and troponin to look for ischaemia or arrhythmia, chest X-ray, natriuretic peptide (BNP or NT-proBNP), echocardiography, kidney function, electrolytes and blood gases.",
+    "management": "Emergency care: sit the patient upright, give oxygen, use non-invasive ventilation (CPAP) if hypoxic or distressed, give IV loop diuretics and vasodilators such as nitrates if blood pressure allows, and treat the cause (ischaemia, arrhythmia, hypertension or valve disease).",
+    "differentiate": "Pneumonia has fever and localised chest signs. COPD or asthma exacerbations have wheeze and a history of lung disease. Pulmonary embolism usually has a clear chest X-ray and clot risk factors.",
+    "references": ["ESC Heart Failure Guidelines (2021, 2023 update)", "NICE NG106 Chronic heart failure", "StatPearls - Pulmonary edema"]
+  },
+  "Spontaneous pneumothorax": {
+    "display": "Spontaneous pneumothorax",
+    "overview": "A spontaneous pneumothorax is air in the space around the lung causing partial or complete lung collapse without injury. Primary pneumothorax typically affects tall, thin young adults, and smoking increases the risk; secondary pneumothorax occurs with lung disease such as COPD. It presents with sudden one-sided chest pain that is worse on breathing in, and breathlessness.",
+    "red_flags": "Tension pneumothorax: severe distress, low blood pressure, fast heart rate, shifted trachea and falling oxygen saturation. Also pneumothorax on both sides, or significant breathlessness in someone with underlying lung disease.",
+    "next_steps": "Chest X-ray (or point-of-care ultrasound or CT) and oxygen saturation; the size of the pneumothorax and the symptoms guide management.",
+    "management": "A tension pneumothorax needs immediate needle decompression followed by a chest drain. A small primary pneumothorax with few symptoms may be managed conservatively with follow-up; symptomatic cases need aspiration or a chest drain. Advise stopping smoking and avoiding flying or diving until resolved; refer recurrences for a surgical opinion.",
+    "differentiate": "Pulmonary embolism has clot risk factors and a normal chest X-ray. Pericarditis pain changes with position and the ECG shows typical changes. A rib fracture has point tenderness after trauma or coughing. Heart attack pain is usually pressure-like with ECG and troponin changes.",
+    "references": ["British Thoracic Society pneumothorax guideline (2023)", "StatPearls - Pneumothorax", "NHS - Collapsed lung"]
+  },
+  "Boerhaave": {
+    "display": "Boerhaave syndrome",
+    "overview": "Boerhaave syndrome is a spontaneous full-thickness tear of the oesophagus, usually after forceful vomiting or retching, often following a large meal or alcohol. It causes severe chest or upper abdominal pain after vomiting, and air may be felt under the skin of the neck or chest. Mortality is high when diagnosis is delayed.",
+    "red_flags": "Severe chest pain after vomiting, fever, fast heart rate, shock, breathlessness, or a crackling feeling under the skin of the neck or chest.",
+    "next_steps": "Urgent CT of the chest with oral contrast, or a contrast swallow study. A chest X-ray may show air in the mediastinum or fluid around the lung. Blood tests including lactate.",
+    "management": "Emergency: nothing by mouth, IV fluids, broad-spectrum antibiotics and antifungals, acid suppression, and urgent referral to surgical or endoscopic specialists for repair, drainage or stenting.",
+    "differentiate": "Heart attack (ECG and troponin changes), aortic dissection, pancreatitis, a perforated ulcer and pneumothorax can all cause sudden severe pain; violent vomiting just before the pain points to Boerhaave syndrome.",
+    "references": ["StatPearls - Boerhaave Syndrome", "World Society of Emergency Surgery guidance on oesophageal perforation"]
+  },
+  "Epiglottitis": {
+    "display": "Epiglottitis",
+    "overview": "Epiglottitis is inflammation of the epiglottis, usually bacterial, that can rapidly block the airway. Typical features are severe sore throat, painful or difficult swallowing, drooling, a muffled voice, fever and stridor; patients often sit leaning forward. Since Hib vaccination it is less common in children and is now seen more in adults.",
+    "red_flags": "Stridor, drooling, sitting forward to breathe (tripod position), breathing distress, inability to swallow saliva, or cyanosis: these suggest the airway may close.",
+    "next_steps": "Do not examine the throat with a tongue depressor or upset the patient, especially a child. Keep them calm and upright and get urgent airway assessment by senior anaesthetic and ENT staff. Endoscopic examination is done only in a controlled setting.",
+    "management": "Emergency transfer with airway expertise available, securing the airway if needed, IV antibiotics and supportive care; steroids may be used per local protocol.",
+    "differentiate": "Croup affects younger children with a barking cough and is less toxic. Viral sore throat lacks drooling and stridor. A peritonsillar abscess causes difficulty opening the mouth and a displaced uvula. Laryngospasm is sudden and brief.",
+    "references": ["StatPearls - Epiglottitis", "NHS - Epiglottitis", "ENT UK"]
+  },
+  "Guillain-Barré syndrome": {
+    "display": "Guillain-Barré syndrome",
+    "overview": "Guillain-Barré syndrome is an acute autoimmune inflammation of the peripheral nerves, often after a gut or respiratory infection. It causes rapidly progressive, usually symmetrical weakness that rises from the legs, with reduced or absent reflexes, tingling, and sometimes facial or swallowing weakness, developing over days up to 4 weeks.",
+    "red_flags": "Breathing difficulty or a weak cough (respiratory muscle weakness), difficulty swallowing, rapidly worsening weakness, and unstable blood pressure or heart rhythm.",
+    "next_steps": "Urgent neurological assessment, regular monitoring of breathing capacity (vital capacity), nerve conduction studies and lumbar puncture (raised protein with a normal cell count), and ECG monitoring.",
+    "management": "Hospital admission with intravenous immunoglobulin or plasma exchange, breathing support if needed, prevention of blood clots, pain management and rehabilitation.",
+    "differentiate": "Myasthenia gravis causes weakness that worsens with use, with normal reflexes and eye involvement. Spinal cord compression has a sensory level and bladder problems. A stroke is sudden and usually one-sided.",
+    "references": ["European Academy of Neurology / Peripheral Nerve Society GBS guideline (2023)", "NHS - Guillain-Barre syndrome", "StatPearls"]
+  },
+  "Croup": {
+    "display": "Croup",
+    "overview": "Croup is a viral infection of the upper airway, mostly in children aged 6 months to 3 years. After a few days of cold symptoms it causes a barking, seal-like cough, a hoarse voice and stridor, often worse at night.",
+    "red_flags": "Stridor at rest, chest wall pulling in with each breath, agitation or drowsiness, cyanosis or low oxygen saturation, drooling or a very unwell appearance (consider epiglottitis or bacterial tracheitis).",
+    "next_steps": "Clinical diagnosis with severity assessment (for example the Westley croup score). Keep the child calm and avoid examining the throat if distressed; imaging is rarely needed.",
+    "management": "A single dose of oral dexamethasone for all severities; nebulised adrenaline with observation for moderate to severe stridor; oxygen if saturation is low; admit severe cases. Most cases settle within a few days.",
+    "differentiate": "Epiglottitis causes a toxic appearance and drooling without a barking cough. An inhaled foreign body starts suddenly. Anaphylaxis has skin signs and an allergen trigger. Bacterial tracheitis has high fever and responds poorly to croup treatment.",
+    "references": ["NICE CKS - Croup", "Canadian Paediatric Society croup guidance", "StatPearls - Croup"]
+  },
+  "PSVT": {
+    "display": "Paroxysmal supraventricular tachycardia (PSVT)",
+    "overview": "PSVT is episodes of a fast, regular heart rhythm (typically 150-250 beats per minute) that start and stop suddenly, caused by an extra electrical circuit in the heart. It causes palpitations, dizziness, breathlessness, chest discomfort or anxiety, and is usually not dangerous in a structurally normal heart.",
+    "red_flags": "Fainting, low blood pressure, chest pain, signs of heart failure, pre-excitation (Wolff-Parkinson-White pattern) on the ECG, or a very fast irregular rhythm.",
+    "next_steps": "12-lead ECG during symptoms and at rest (looking for pre-excitation), thyroid function and electrolytes, ambulatory ECG monitoring if episodes come and go, and echocardiography if structural heart disease is suspected.",
+    "management": "If unstable, synchronised electrical cardioversion. If stable, vagal manoeuvres such as the modified Valsalva, then IV adenosine. Refer to cardiology for long-term options such as catheter ablation or medication.",
+    "differentiate": "Atrial fibrillation is irregularly irregular. Sinus tachycardia starts gradually and has a cause such as fever, anaemia or anxiety. A panic attack has no documented arrhythmia.",
+    "references": ["ESC Guidelines for supraventricular tachycardia (2019)", "Resuscitation Council UK tachycardia algorithm", "NHS - Supraventricular tachycardia"]
+  },
+  "Scombroid food poisoning": {
+    "display": "Scombroid food poisoning",
+    "overview": "Scombroid poisoning is histamine toxicity from eating fish that has started to spoil, such as tuna, mackerel or sardines, and occasionally aged cheese. Within minutes to an hour it causes flushing of the face and upper body, headache, a peppery taste, palpitations, sweating, nausea, diarrhoea and hives. Several people who ate the same food are often affected.",
+    "red_flags": "Wheeze, low blood pressure or airway swelling (manage as anaphylaxis), and severe symptoms in people with heart or lung disease or taking drugs that slow histamine breakdown.",
+    "next_steps": "Clinical diagnosis from the food history with vital signs; consider reporting to food safety authorities. Testing the fish for histamine can confirm the cause.",
+    "management": "Usually settles within 12-24 hours. Antihistamines relieve symptoms; treat wheeze or low blood pressure as for anaphylaxis.",
+    "differentiate": "A true fish allergy or anaphylaxis has a previous allergy history and more airway involvement. Ciguatera poisoning causes neurological symptoms. Panic attacks lack the flushing, hives and food link.",
+    "references": ["CDC - Scombroid fish poisoning", "StatPearls - Scombroid Fish Poisoning", "FDA Fish and Fishery Products Hazards Guidance"]
+  },
+  "Myocarditis": {
+    "display": "Myocarditis",
+    "overview": "Myocarditis is inflammation of the heart muscle, most commonly after a viral infection, and also from autoimmune disease, drugs or toxins. It causes chest pain, breathlessness, fatigue, palpitations or fainting, often after a flu-like illness, ranging from mild to sudden heart failure.",
+    "red_flags": "Signs of heart failure, cardiogenic shock, fainting, dangerous ventricular arrhythmias or rapidly rising troponin.",
+    "next_steps": "ECG, troponin, inflammatory markers and echocardiography; cardiac MRI is key for diagnosis; coronary imaging to exclude coronary artery disease; heart muscle biopsy in selected cases.",
+    "management": "Admit for monitoring when significant, treat heart failure and arrhythmias, avoid competitive sport and strenuous exercise for 3-6 months, and give specialist treatment for specific causes.",
+    "differentiate": "Acute coronary syndrome has risk factors and changes in one coronary territory. Pericarditis pain is sharp and changes with position, with a friction rub. Pulmonary embolism has clot risk factors and right heart strain.",
+    "references": ["ESC position statement on myocarditis", "AHA/ACC expert consensus on myocarditis (2022)", "StatPearls - Myocarditis"]
+  },
+  "Acute dystonic reactions": {
+    "display": "Acute dystonic reaction",
+    "overview": "An acute dystonic reaction is sudden involuntary sustained muscle contraction caused by dopamine-blocking drugs such as antipsychotics (for example haloperidol) or anti-sickness drugs (for example metoclopramide), usually within hours to days of starting or increasing the drug. Features include neck twisting, jaw clenching, tongue protrusion and the eyes rolling upward.",
+    "red_flags": "Spasm of the larynx with stridor or breathing difficulty, inability to swallow, or high fever with rigidity and confusion (neuroleptic malignant syndrome).",
+    "next_steps": "Take a medication history (recent antipsychotic or anti-sickness drug), perform a neurological examination and check vital signs including temperature.",
+    "management": "Stop or reduce the causative drug. An anticholinergic (such as procyclidine or benztropine) or diphenhydramine given by injection usually gives rapid relief, followed by a few days of oral treatment. Support the airway if the larynx is involved.",
+    "differentiate": "Seizures involve altered consciousness. Tetanus causes jaw spasm with a wound history. Neuroleptic malignant syndrome has fever, rigidity and unstable vital signs. Stroke causes focal weakness.",
+    "references": ["StatPearls - Acute Dystonia", "BNF drug monographs (procyclidine, metoclopramide)"]
+  },
+  "Unstable angina": {
+    "display": "Unstable angina",
+    "overview": "Unstable angina is an acute coronary syndrome in which heart muscle ischaemia occurs at rest, is new and severe, or is getting worse (crescendo pattern), without heart muscle damage (troponin not raised). It carries a high short-term risk of heart attack.",
+    "red_flags": "Chest pain at rest lasting more than 20 minutes, recurrent pain, low blood pressure, heart failure, arrhythmias or changing ECG findings.",
+    "next_steps": "Immediate 12-lead ECG and serial high-sensitivity troponin to exclude NSTEMI, risk scoring (for example GRACE) and cardiac monitoring.",
+    "management": "Treat as an acute coronary syndrome: call emergency services, give aspirin and anti-anginal treatment such as nitrates, antithrombotic therapy, and cardiology-guided invasive assessment based on risk.",
+    "differentiate": "Stable angina is predictable on exertion and relieved by rest. NSTEMI has a raised troponin. Pericarditis, pulmonary embolism and oesophageal causes can mimic it.",
+    "references": ["ESC Guidelines for acute coronary syndromes (2023)", "NICE CG94 Unstable angina and NSTEMI", "AHA/ACC Chest Pain Guideline (2021)"]
+  },
+  "Stable angina": {
+    "display": "Stable angina",
+    "overview": "Stable angina is chest pain or tightness caused by reduced blood flow to the heart muscle, typically triggered predictably by exertion or emotion and relieved within minutes by rest or a nitrate spray. It often spreads to the arm, jaw or neck. Risk factors include smoking, diabetes, high blood pressure, high cholesterol and family history.",
+    "red_flags": "A change in pattern: pain at rest, longer or more frequent episodes, or less effort needed to bring it on (suggests unstable angina), or associated fainting or breathlessness.",
+    "next_steps": "ECG, blood tests (lipids, HbA1c, full blood count, kidney function), CT coronary angiography or functional testing as per guidelines, and cardiology referral.",
+    "management": "Sublingual nitrate for symptoms, anti-anginal medicine (beta-blocker or calcium-channel blocker), secondary prevention (antiplatelet, statin, blood pressure control), risk factor changes and stopping smoking.",
+    "differentiate": "Unstable angina or NSTEMI cause pain at rest, a worsening pattern or a troponin rise. Reflux pain is burning and meal-related. Musculoskeletal chest pain can be reproduced by pressing on the chest wall.",
+    "references": ["ESC Guidelines for chronic coronary syndromes (2024)", "NICE CG126 Stable angina", "NHS - Angina"]
+  },
+  "Pulmonary embolism": {
+    "display": "Pulmonary embolism",
+    "overview": "Pulmonary embolism is a blockage of the lung arteries by a blood clot, usually from a deep vein thrombosis in the legs. It causes sudden breathlessness, chest pain worse on breathing in, cough, coughing blood, a fast heart rate or fainting. Risk factors include recent surgery, immobility, cancer, previous clots, pregnancy and oestrogen treatment.",
+    "red_flags": "Fainting, low blood pressure or shock, severe hypoxia, or signs of strain on the right side of the heart (high-risk pulmonary embolism).",
+    "next_steps": "Use a clinical probability score (Wells or Geneva). If probability is low, D-dimer; if high or D-dimer positive, CT pulmonary angiography. ECG, troponin, BNP and echocardiography help assess risk; leg ultrasound if a deep vein thrombosis is suspected.",
+    "management": "Urgent hospital assessment. Start anticoagulation once confirmed, or while awaiting imaging when probability is high. High-risk pulmonary embolism with shock needs clot-dissolving (thrombolytic) or catheter-directed treatment.",
+    "differentiate": "Pneumonia has fever, productive cough and consolidation. Pneumothorax is seen on chest X-ray. Acute coronary syndrome has its own ECG and troponin pattern. Pericarditis pain changes with position. Panic attack is a diagnosis made only after excluding these.",
+    "references": ["ESC Guidelines for acute pulmonary embolism (2019)", "NICE NG158 Venous thromboembolic diseases", "NHS - Pulmonary embolism"]
+  },
+  "Cluster headache": {
+    "display": "Cluster headache",
+    "overview": "Cluster headache causes severe one-sided pain around the eye or temple lasting 15-180 minutes, up to 8 times a day, in bouts lasting weeks, often at the same time of day or night. Attacks come with same-side watery eye, red eye, blocked or runny nostril and drooping eyelid, and the person is restless. It is more common in men and smokers.",
+    "red_flags": "A first sudden severe thunderclap headache, headache with fever and neck stiffness, neurological deficits, onset after age 50, or a change in pattern: these need investigation for other causes.",
+    "next_steps": "Clinical diagnosis using ICHD-3 criteria with neurological examination; MRI of the brain for atypical features or a first presentation.",
+    "management": "For attacks, high-flow 100% oxygen through a non-rebreathe mask and injected or nasal triptans. For prevention, verapamil (with ECG monitoring) under specialist care, sometimes short steroid courses; avoid alcohol during bouts.",
+    "differentiate": "Migraine attacks last longer with nausea and light sensitivity, and the person prefers to keep still. Trigeminal neuralgia causes seconds-long electric shocks. Sinusitis has fever and discoloured discharge. Acute glaucoma causes eye pain with visual changes.",
+    "references": ["NICE CG150 Headaches in over 12s", "International Classification of Headache Disorders (ICHD-3)", "NHS - Cluster headaches"]
+  },
+  "Spontaneous rib fracture": {
+    "display": "Spontaneous rib fracture",
+    "overview": "A spontaneous rib fracture occurs without significant trauma, for example from severe coughing, weakened bone (osteoporosis, cancer spread to bone, long-term steroids) or repetitive strain. It causes localised chest wall pain that is worse with breathing, coughing and movement, with tenderness over one spot.",
+    "red_flags": "Breathlessness or low oxygen (possible pneumothorax or lung bruising), several fractures, older age or lung disease (risk of pneumonia), or suspicion that weak bone from cancer caused the fracture (for example unexplained weight loss).",
+    "next_steps": "Chest X-ray, also to exclude pneumothorax; ultrasound or CT if unclear; check for osteoporosis or cancer when a fracture happens with minimal force.",
+    "management": "Good pain relief so the patient can breathe deeply and cough, which prevents pneumonia, plus breathing exercises; the chest should not be strapped. Treat the cause, such as the cough or osteoporosis.",
+    "differentiate": "Pleurisy or pneumonia cause fever. Pulmonary embolism and pneumothorax cause breathlessness. Costochondritis affects the rib cartilage. Cardiac pain is not reproduced by pressing on one rib.",
+    "references": ["NHS - Broken or bruised ribs", "StatPearls - Rib Fracture"]
+  },
+  "GERD": {
+    "display": "Gastro-oesophageal reflux disease (GERD)",
+    "overview": "Gastro-oesophageal reflux disease is stomach acid flowing back into the oesophagus, causing heartburn (burning behind the breastbone), acid regurgitation and a bitter taste, often after meals or when lying down. It can also cause chronic cough, hoarseness or chest pain.",
+    "red_flags": "Difficulty or pain swallowing, unintentional weight loss, vomiting blood or black stools, anaemia, persistent vomiting, or new symptoms over age 55: these need urgent endoscopy referral.",
+    "next_steps": "Clinical diagnosis when symptoms are typical, after excluding heart causes of chest pain; endoscopy for alarm features or if treatment fails; consider H. pylori testing for indigestion.",
+    "management": "Lifestyle measures (weight loss, smaller and earlier meals, raising the head of the bed, less alcohol, stopping smoking) and a 4-8 week trial of a proton pump inhibitor; review medicines that worsen reflux.",
+    "differentiate": "Angina is brought on by exertion and relieved by rest. Peptic ulcer, gallbladder pain and oesophageal spasm can mimic it. Severe pain after vomiting suggests Boerhaave syndrome.",
+    "references": ["NICE CG184 GORD and dyspepsia in adults", "American College of Gastroenterology GERD guideline (2022)", "NHS - Heartburn and acid reflux"]
+  },
+  "HIV (initial infection)": {
+    "display": "Acute HIV infection",
+    "overview": "Acute (primary) HIV infection, 2-4 weeks after exposure, often causes a flu-like or glandular-fever-like illness: fever, sore throat, swollen lymph nodes, rash, mouth ulcers, muscle aches, diarrhoea and weight loss. Risk factors include condomless sex, sex with a partner living with HIV and injecting drugs.",
+    "red_flags": "Severe illness, neurological symptoms such as meningitis, signs of opportunistic infection, or pregnancy (to prevent transmission to the baby).",
+    "next_steps": "Fourth-generation HIV antigen/antibody test, plus HIV RNA if exposure was very recent or suspicion is high with a negative test; repeat testing within the window period; screen for other sexually transmitted infections and hepatitis; partner notification.",
+    "management": "Prompt referral to HIV specialist services and early antiretroviral therapy (recommended for everyone diagnosed), with counselling and advice on preventing transmission. Post-exposure prophylaxis within 72 hours for recent exposures.",
+    "differentiate": "Glandular fever (EBV), influenza, viral sore throat, secondary syphilis and drug reactions can look similar; risk history and testing distinguish them.",
+    "references": ["WHO consolidated HIV guidelines", "CDC HIV testing guidance", "BHIVA guidelines"]
+  },
+  "Inguinal hernia": {
+    "display": "Inguinal hernia",
+    "overview": "An inguinal hernia is a bulge of abdominal contents through the groin, causing a lump that may extend into the scrotum, is worse when standing, coughing or straining, and goes back when lying down. It is much more common in men and may cause aching or discomfort.",
+    "red_flags": "A painful, tense lump that will not go back, vomiting, a swollen abdomen, inability to pass stool or wind (obstruction), or red tender skin over the lump (strangulation): these need emergency surgery.",
+    "next_steps": "Clinical examination standing and lying, checking for a cough impulse; ultrasound if the diagnosis is unclear.",
+    "management": "Emergency surgical review for a hernia that will not go back. Otherwise refer for planned surgical repair of symptomatic hernias; watchful waiting may suit men with minimal symptoms.",
+    "differentiate": "A femoral hernia lies below the groin ligament, is more common in women and strangulates more often. Hydrocele, swollen lymph nodes, testicular torsion and muscle strain are other causes of groin swelling or pain.",
+    "references": ["HerniaSurge international guidelines for groin hernia management (2018)", "NHS - Inguinal hernia repair"]
+  },
+  "Myasthenia gravis": {
+    "display": "Myasthenia gravis",
+    "overview": "Myasthenia gravis is an autoimmune disease of the junction between nerves and muscles, causing muscle weakness that fluctuates, worsens with use and improves with rest. It often starts with drooping eyelids and double vision and can affect speech, swallowing, chewing, neck and limb muscles.",
+    "red_flags": "Myasthenic crisis: breathing difficulty, weak cough or severe swallowing difficulty, which can be triggered by infection, surgery or certain medicines such as some antibiotics and beta-blockers.",
+    "next_steps": "Acetylcholine receptor and MuSK antibodies, nerve studies (repetitive nerve stimulation, single-fibre EMG), CT of the chest for a thymus tumour and thyroid function; monitor breathing capacity if swallowing or breathing are affected.",
+    "management": "Neurology referral; acetylcholinesterase inhibitors (pyridostigmine), immunosuppression (steroids and steroid-sparing drugs), and thymectomy where indicated. A crisis needs intensive care with immunoglobulin or plasma exchange.",
+    "differentiate": "Guillain-Barre syndrome causes rising weakness with absent reflexes. Stroke is sudden and focal. Lambert-Eaton syndrome improves with repeated effort. Botulism and thyroid eye disease can also cause eye muscle weakness.",
+    "references": ["International consensus guidance for management of myasthenia gravis (2020 update)", "Association of British Neurologists", "NHS - Myasthenia gravis"]
+  },
+  "Atrial fibrillation": {
+    "display": "Atrial fibrillation",
+    "overview": "Atrial fibrillation is an irregular, often fast heart rhythm caused by disorganised electrical activity in the upper heart chambers. It causes palpitations, breathlessness, tiredness, dizziness or chest discomfort, or no symptoms at all, and increases stroke risk about five-fold. Risk factors include age, high blood pressure, heart failure, valve disease, diabetes, obesity, alcohol and thyroid disease.",
+    "red_flags": "Low blood pressure, fainting, chest pain, heart failure, a very fast heart rate, or signs of stroke.",
+    "next_steps": "12-lead ECG to confirm; blood tests (thyroid, electrolytes, kidney function, full blood count); echocardiography; stroke risk (CHA2DS2-VA) and bleeding risk assessment.",
+    "management": "If unstable, emergency electrical cardioversion. If stable, rate control (beta-blocker or calcium-channel blocker), anticoagulation according to stroke risk, consideration of rhythm control, and treatment of triggers and risk factors.",
+    "differentiate": "PSVT is regular and starts abruptly. Atrial flutter, sinus tachycardia and frequent ectopic beats are distinguished on the ECG.",
+    "references": ["ESC Guidelines for atrial fibrillation (2024)", "NICE NG196 Atrial fibrillation"]
+  },
+  "Bronchiectasis": {
+    "display": "Bronchiectasis",
+    "overview": "Bronchiectasis is permanent widening of the airways that causes a chronic cough with daily sputum, repeated chest infections, breathlessness and sometimes coughing blood. Causes include previous severe infections, cystic fibrosis, immune deficiency, COPD and asthma.",
+    "red_flags": "Coughing large amounts of blood, respiratory failure, sepsis, or rapidly worsening exacerbations.",
+    "next_steps": "High-resolution CT of the chest to confirm; sputum culture including Pseudomonas; lung function tests; tests for underlying causes such as immunoglobulins, cystic fibrosis testing and allergic aspergillosis.",
+    "management": "Airway clearance physiotherapy, prompt antibiotics for exacerbations guided by sputum results (usually 14 days), vaccination and pulmonary rehabilitation; specialist care for frequent exacerbations, including long-term macrolide or inhaled antibiotics.",
+    "differentiate": "COPD has a smoking history and less daily purulent sputum. Tuberculosis causes weight loss, night sweats and exposure history. Lung cancer causes coughing blood and weight loss in smokers.",
+    "references": ["British Thoracic Society bronchiectasis guideline (2019)", "European Respiratory Society bronchiectasis guideline (2017)"]
+  },
+  "Chagas": {
+    "display": "Chagas disease",
+    "overview": "Chagas disease is infection with the parasite Trypanosoma cruzi, spread by triatomine (kissing) bugs in Latin America, and also by blood transfusion, organ transplant or from mother to baby. The early phase is often mild with fever, swelling at the bite site or around one eye, and swollen lymph nodes; years later some people develop heart disease or enlargement of the oesophagus or colon.",
+    "red_flags": "Heart failure, arrhythmias, fainting or stroke in someone from an endemic area, or severe early disease (heart or brain inflammation), especially in immunosuppressed people.",
+    "next_steps": "In the early phase, blood microscopy or PCR for parasites. In the chronic phase, two different antibody tests, plus ECG and echocardiography to assess the heart; test family members and children of infected women.",
+    "management": "Antiparasitic treatment (benznidazole or nifurtimox) under specialist supervision, especially for early infection, children and women of childbearing age, with management of heart and digestive complications.",
+    "differentiate": "Malaria and dengue are other causes of fever after travel. Other cardiomyopathies (coronary disease, viral myocarditis) can mimic chronic Chagas heart disease; geographic exposure is the key clue.",
+    "references": ["WHO - Chagas disease fact sheet", "CDC - Chagas disease clinical care", "PAHO guidance"]
+  },
+  "Tuberculosis": {
+    "display": "Tuberculosis",
+    "overview": "Tuberculosis is infection with Mycobacterium tuberculosis spread through the air. Lung TB causes a cough lasting more than 2-3 weeks, sometimes with blood, plus fever, night sweats, weight loss and fatigue. Risk is higher with HIV, immunosuppression, diabetes, malnutrition, close contacts and people from or travelling to high-burden countries.",
+    "red_flags": "Coughing large amounts of blood, breathlessness, signs of meningitis or spinal involvement, severe weight loss, or HIV co-infection.",
+    "next_steps": "Chest X-ray; sputum samples for smear microscopy, a rapid molecular test and culture with drug sensitivity; HIV test; notify public health and trace contacts.",
+    "management": "Respiratory isolation while infectious and a standard multi-drug antibiotic regimen (typically 6 months) under specialist supervision with adherence support.",
+    "differentiate": "Lung cancer tends to occur in older smokers. Pneumonia has an acute onset and responds to standard antibiotics. Bronchiectasis, sarcoidosis and fungal infections can look similar; microbiology confirms TB.",
+    "references": ["WHO consolidated guidelines on tuberculosis", "NICE NG33 Tuberculosis", "CDC - Tuberculosis"]
+  },
+  "Bronchospasm / acute asthma exacerbation": {
+    "display": "Acute asthma attack",
+    "overview": "An acute asthma attack is a sudden worsening of asthma with narrowing of the airways, causing wheeze, breathlessness, chest tightness and cough. Common triggers are viral infections, allergens, exercise, smoke and stopping preventer inhalers.",
+    "red_flags": "Life-threatening features: oxygen saturation below 92%, a silent chest, cyanosis, exhaustion, confusion, inability to complete sentences, peak flow below a third of best, low blood pressure or arrhythmia. Previous intensive care admission or frequent attacks increase risk.",
+    "next_steps": "Peak expiratory flow compared with predicted or best, oxygen saturation, breathing and heart rate; blood gases if severe; chest X-ray only if pneumothorax, pneumonia or life-threatening features are suspected.",
+    "management": "Oxygen to target saturation, high-dose inhaled short-acting bronchodilator (spacer or nebuliser), oral or IV corticosteroids, ipratropium for severe attacks and IV magnesium in severe cases. Arrange follow-up and review the asthma action plan and preventer treatment.",
+    "differentiate": "Anaphylaxis has skin or mucosal signs, an allergen and low blood pressure. COPD exacerbations occur in older smokers with fixed airflow limitation. Heart failure causes crackles and swelling. Vocal cord dysfunction and inhaled foreign bodies can mimic wheeze.",
+    "references": ["Global Initiative for Asthma (GINA) report 2024", "BTS/NICE/SIGN asthma guideline (2024)"]
+  },
+  "Acute COPD exacerbation / infection": {
+    "display": "COPD exacerbation",
+    "overview": "A COPD exacerbation is an acute worsening of breathlessness, cough and sputum volume or colour beyond normal day-to-day variation, usually triggered by viral or bacterial infection or pollution, in long-term smokers aged over 40.",
+    "red_flags": "Severe breathlessness at rest, confusion or drowsiness, cyanosis, low oxygen saturation, new leg swelling, use of neck muscles to breathe, or failure of treatment at home.",
+    "next_steps": "Oxygen saturation, with blood gases if low or drowsy because of the risk of carbon dioxide retention; chest X-ray to exclude pneumonia or pneumothorax; ECG; sputum culture if purulent; check inhaler technique.",
+    "management": "Increase short-acting bronchodilators, a short course of oral steroids (typically 5 days), antibiotics if sputum is purulent or there are signs of infection, controlled oxygen targeting 88-92%, non-invasive ventilation for carbon dioxide retention, then follow-up and pulmonary rehabilitation.",
+    "differentiate": "Pneumonia, pulmonary embolism, heart failure, pneumothorax and lung cancer should be considered when the response to treatment is poor.",
+    "references": ["GOLD (Global Initiative for Chronic Obstructive Lung Disease) 2025 report", "NICE NG115 COPD in over 16s"]
+  },
+  "Influenza": {
+    "display": "Influenza",
+    "overview": "Influenza is an acute viral respiratory infection with sudden fever, chills, muscle aches, headache, tiredness, dry cough and sore throat, usually during seasonal outbreaks. Most people recover in 1-2 weeks; complications are more likely in older adults, young children, pregnancy, chronic illness and immunosuppression.",
+    "red_flags": "Breathlessness, chest pain, confusion, persistent high fever, dehydration, low oxygen saturation, or getting worse after initially improving (possible bacterial pneumonia).",
+    "next_steps": "Clinical diagnosis during flu season; rapid antigen or PCR testing when it would change management, such as high-risk or hospitalised patients; check oxygen saturation and look for pneumonia.",
+    "management": "Rest, fluids and paracetamol or ibuprofen for fever and aches; antiviral treatment such as oseltamivir for high-risk or severely ill patients, ideally within 48 hours; annual vaccination; stay home to avoid spreading it.",
+    "differentiate": "The common cold is milder and more gradual with prominent nose symptoms. COVID-19 needs testing to distinguish. Pneumonia has localised chest signs. Early HIV and other systemic infections can also cause flu-like illness.",
+    "references": ["CDC - Influenza clinical guidance", "WHO - Influenza (seasonal) fact sheet", "NICE"]
+  },
+  "Pneumonia": {
+    "display": "Pneumonia",
+    "overview": "Pneumonia is infection of the lung tissue, usually bacterial (for example Streptococcus pneumoniae) or viral, causing cough (often with sputum), fever, chills, breathlessness, chest pain worse on breathing in and tiredness; older adults may present with confusion.",
+    "red_flags": "Confusion, breathing rate of 30 or more, low blood pressure, low oxygen saturation, age 65 or over (CURB-65 features), or signs of sepsis.",
+    "next_steps": "Severity assessment (CURB-65 or CRB-65), oxygen saturation, chest X-ray, blood tests (full blood count, CRP, urea), and blood and sputum cultures in moderate to severe cases.",
+    "management": "Antibiotics according to local guidance and severity, oxygen and IV fluids as needed, hospital admission for moderate to high severity, and follow-up if symptoms persist or in smokers.",
+    "differentiate": "Acute bronchitis has no localised chest signs and a normal X-ray. Pulmonary embolism, heart failure, lung cancer (pneumonia behind a blocked airway) and tuberculosis (longer course) can look similar.",
+    "references": ["NICE NG138 Pneumonia (community-acquired): antimicrobial prescribing", "NICE CG191 Pneumonia in adults", "ATS/IDSA community-acquired pneumonia guideline (2019)"]
+  },
+  "Bronchiolitis": {
+    "display": "Bronchiolitis",
+    "overview": "Bronchiolitis is a viral infection, most often RSV, of the small airways in babies under 1-2 years old. After 1-3 days of cold symptoms it causes cough, fast breathing, wheeze or crackles and difficulty feeding, peaking around days 3-5.",
+    "red_flags": "Pauses in breathing (apnoea), grunting, severe chest recession, cyanosis, low oxygen saturation, poor feeding or dehydration, or lethargy. Risk is higher under 3 months, after premature birth and with heart or lung disease.",
+    "next_steps": "Clinical diagnosis with pulse oximetry and assessment of hydration and feeding; routine blood tests and chest X-ray are not needed.",
+    "management": "Supportive care: nasal suction if needed, oxygen if saturation is low, and feeding support by tube or IV fluids. Bronchodilators, steroids and antibiotics are not recommended routinely. Give parents clear advice on when to return.",
+    "differentiate": "Asthma or viral wheeze affects older children with repeated episodes. Pneumonia causes high fever and localised signs. Whooping cough causes coughing fits. Croup causes a barking cough and stridor.",
+    "references": ["NICE NG9 Bronchiolitis in children", "American Academy of Pediatrics bronchiolitis guideline"]
+  },
+  "Pulmonary neoplasm": {
+    "display": "Lung cancer",
+    "overview": "Lung cancer is a malignant tumour of the lung, strongly linked to smoking and also to asbestos, radon, family history and work exposures. Symptoms include persistent cough, coughing blood, breathlessness, chest pain, hoarse voice, weight loss, tiredness and repeated chest infections.",
+    "red_flags": "Coughing blood, unexplained weight loss, persistent symptoms for over 3 weeks in smokers or people over 40, swelling of the face and neck (superior vena cava obstruction), stridor, or signs of spinal cord compression.",
+    "next_steps": "Urgent chest X-ray; CT of the chest if the X-ray suggests cancer or symptoms persist; urgent suspected-cancer referral; tissue diagnosis by bronchoscopy or biopsy; staging with PET-CT.",
+    "management": "Specialist multidisciplinary care with surgery, radiotherapy, chemotherapy, targeted therapy or immunotherapy depending on type and stage, plus stopping smoking, symptom control and palliative support.",
+    "differentiate": "Tuberculosis, pneumonia (which clears with treatment), bronchiectasis, sarcoidosis and benign nodules can look similar; tissue diagnosis confirms cancer.",
+    "references": ["NICE NG122 Lung cancer", "NICE NG12 Suspected cancer: recognition and referral", "ESMO clinical practice guidelines"]
+  },
+  "Pancreatic neoplasm": {
+    "display": "Pancreatic cancer",
+    "overview": "Pancreatic cancer often presents late with painless jaundice (yellow skin, dark urine, pale stools, itching), upper abdominal or back pain, weight loss, loss of appetite, new diabetes or digestive problems. Risk factors include smoking, obesity, chronic pancreatitis, family history and age.",
+    "red_flags": "Jaundice, unexplained weight loss, new diabetes with weight loss over age 60, persistent back pain with abdominal symptoms, or vomiting from obstruction.",
+    "next_steps": "Urgent pancreatic-protocol CT or MRI, liver function tests, the tumour marker CA19-9 (supportive, not diagnostic), urgent suspected-cancer referral, and endoscopic ultrasound for biopsy.",
+    "management": "Specialist pancreatic multidisciplinary care: surgery when the tumour is removable, chemotherapy, stenting of the bile duct for jaundice, pancreatic enzyme replacement, pain control and palliative support.",
+    "differentiate": "Gallstones in the bile duct cause painful jaundice. Chronic pancreatitis, hepatitis, peptic ulcer and other cancers can look similar; imaging distinguishes them.",
+    "references": ["NICE NG85 Pancreatic cancer in adults", "NICE NG12 Suspected cancer", "ESMO clinical practice guidelines"]
+  },
+  "Anemia": {
+    "display": "Anaemia",
+    "overview": "Anaemia is a low haemoglobin level, which reduces oxygen delivery and causes tiredness, weakness, pale skin, breathlessness on exertion, palpitations, dizziness and headache. Common causes are iron deficiency (blood loss, heavy periods, poor diet), vitamin B12 or folate deficiency, chronic disease and kidney disease.",
+    "red_flags": "Chest pain, breathlessness at rest, fainting, active bleeding (black stools, vomiting blood, rectal bleeding), very low haemoglobin, or unexplained iron deficiency in men or post-menopausal women (possible bowel cancer).",
+    "next_steps": "Full blood count with red cell size (MCV), ferritin and iron studies, vitamin B12 and folate, kidney function and reticulocytes; find the cause, for example bowel investigation for unexplained iron deficiency, menstrual history and coeliac screening.",
+    "management": "Treat the cause; oral iron for iron deficiency with a haemoglobin recheck after 2-4 weeks; B12 or folate replacement if deficient; urgent assessment and transfusion for severe symptomatic anaemia or active bleeding.",
+    "differentiate": "Heart failure, an underactive thyroid, depression and chronic fatigue can cause similar tiredness; a blood count confirms anaemia.",
+    "references": ["NICE CKS - Anaemia: iron deficiency", "British Society of Gastroenterology iron deficiency anaemia guideline (2021)", "WHO anaemia guidance"]
+  },
+  "Viral pharyngitis": {
+    "display": "Viral pharyngitis (sore throat)",
+    "overview": "Viral pharyngitis is a viral throat infection causing sore throat, painful swallowing, mild fever and often cold symptoms such as runny nose, cough and hoarseness. It usually settles within a week without antibiotics.",
+    "red_flags": "Difficulty breathing, drooling, inability to swallow or stridor (consider epiglottitis or an abscess), difficulty opening the mouth or a displaced uvula (peritonsillar abscess), dehydration, or symptoms lasting beyond 1-2 weeks.",
+    "next_steps": "Clinical assessment using FeverPAIN or Centor scores to estimate the chance of streptococcal infection; consider testing for glandular fever or HIV if prolonged or with risk factors.",
+    "management": "Self-care with fluids, rest, paracetamol or ibuprofen and lozenges; antibiotics only if bacterial infection is likely by score or clinical judgement; advise when to seek help.",
+    "differentiate": "Streptococcal tonsillitis has pus on the tonsils and high fever without cough. Glandular fever, epiglottitis and acute HIV (rash, mouth ulcers, risk factors) can look similar.",
+    "references": ["NICE NG84 Sore throat (acute): antimicrobial prescribing", "IDSA streptococcal pharyngitis guideline", "NHS - Sore throat"]
+  },
+  "Whooping cough": {
+    "display": "Whooping cough (pertussis)",
+    "overview": "Whooping cough is a bacterial infection (Bordetella pertussis) that starts like a cold and is followed by weeks of severe coughing fits, which may end with a whoop on breathing in or with vomiting. It is highly contagious and most dangerous for young babies, who may stop breathing instead of whooping.",
+    "red_flags": "Babies under 6 months, pauses in breathing or turning blue, poor feeding, dehydration, pneumonia or seizures.",
+    "next_steps": "Testing by PCR on a nose or throat swab in the first 2-3 weeks, or antibody tests later; notify public health; identify close contacts, especially babies and pregnant women.",
+    "management": "A macrolide antibiotic such as azithromycin or clarithromycin if within the treatment window, to reduce spread; stay off school or work until 48 hours of antibiotics; hospital care for young babies; preventive antibiotics for vulnerable contacts; vaccination in pregnancy.",
+    "differentiate": "Viral bronchitis has no coughing fits. Asthma has wheeze that responds to inhalers. Inhaled foreign bodies and bronchiolitis in babies can also cause cough.",
+    "references": ["UKHSA pertussis guidance", "CDC - Pertussis", "WHO - Pertussis"]
+  },
+  "Acute laryngitis": {
+    "display": "Acute laryngitis",
+    "overview": "Acute laryngitis is inflammation of the voice box, usually viral or from overusing the voice, causing hoarseness or loss of voice, sore throat, dry cough and mild fever. It usually settles within 1-2 weeks.",
+    "red_flags": "Stridor or breathing difficulty, drooling or difficulty swallowing (possible epiglottitis), or hoarseness lasting more than 3 weeks, especially in smokers, which needs ENT assessment for cancer.",
+    "next_steps": "Clinical diagnosis; laryngoscopy by ENT if hoarseness persists beyond 3 weeks or red flags are present.",
+    "management": "Voice rest, fluids, humid air and pain relief; avoid smoking and irritants; antibiotics are not usually needed.",
+    "differentiate": "Epiglottitis causes severe pain and drooling. Croup in children causes a barking cough and stridor. Reflux laryngitis is chronic with heartburn. Laryngeal cancer causes persistent hoarseness.",
+    "references": ["NHS - Laryngitis", "NICE CKS", "StatPearls - Laryngitis"]
+  },
+  "Allergic sinusitis": {
+    "display": "Allergic rhinosinusitis",
+    "overview": "Allergic rhinosinusitis is inflammation of the nose and sinuses caused by allergens such as pollen, dust mites or pets, giving sneezing, itchy nose, eyes and throat, clear runny nose and congestion, sometimes with facial pressure. It is often seasonal and linked with asthma and eczema.",
+    "red_flags": "Symptoms on one side only, nosebleeds or blood-stained discharge, facial swelling, eye swelling or visual changes, or severe headache: consider other diagnoses.",
+    "next_steps": "History of triggers; skin prick or specific IgE testing if the diagnosis is unclear or to guide allergen avoidance; examine the nose for polyps.",
+    "management": "Allergen avoidance, saline nasal rinses, steroid nasal sprays and non-sedating antihistamines; allergen immunotherapy for selected patients; treat coexisting asthma.",
+    "differentiate": "A viral cold is short with fever. Acute bacterial sinusitis has discoloured discharge, facial pain and worsening after initial improvement. Chronic rhinosinusitis lasts over 12 weeks. Nasal polyps cause persistent blockage and loss of smell.",
+    "references": ["ARIA (Allergic Rhinitis and its Impact on Asthma) guidelines", "BSACI rhinitis guideline", "NICE CKS - Allergic rhinitis"]
+  },
+  "Localized edema": {
+    "display": "Localised oedema",
+    "overview": "Localised oedema is swelling confined to one area such as one limb or the face, caused by fluid build-up. Causes include vein problems (deep vein thrombosis, venous insufficiency), lymphatic blockage, infection (cellulitis), injury, allergic angioedema and medicines such as calcium-channel blockers.",
+    "red_flags": "Swelling of the lips, tongue or throat with breathing difficulty (angioedema or anaphylaxis); a painful swollen leg on one side (possible deep vein thrombosis); red, hot, spreading swelling with fever (cellulitis); swelling with breathlessness or chest pain (possible pulmonary embolism).",
+    "next_steps": "Examine the pattern of swelling; Wells score with D-dimer or ultrasound for suspected deep vein thrombosis; blood tests (kidney and liver function, albumin, urine protein) when wider causes are possible; review medicines.",
+    "management": "Treat the cause: anticoagulation for deep vein thrombosis, antibiotics for cellulitis, stopping a causative drug, and compression with elevation for vein or lymphatic swelling once a clot is excluded; emergency treatment for angioedema.",
+    "differentiate": "Generalised swelling suggests heart, kidney (nephrotic syndrome) or liver failure. Lymphoedema and lipoedema are chronic.",
+    "references": ["NICE NG158 Venous thromboembolic diseases", "NHS - Oedema", "StatPearls - Edema"]
+  },
+  "SLE": {
+    "display": "Systemic lupus erythematosus (SLE)",
+    "overview": "Systemic lupus erythematosus is a chronic autoimmune disease affecting many organs, more common in women of childbearing age. Features include tiredness, fever, joint pain, a butterfly-shaped facial rash, sun sensitivity, mouth ulcers, hair loss, chest pain from inflamed linings of the lungs or heart, kidney involvement and blood count abnormalities.",
+    "red_flags": "Kidney involvement (blood or protein in the urine, swelling, high blood pressure), chest pain or breathlessness, neurological symptoms such as seizures or confusion, very low blood counts, or pregnancy.",
+    "next_steps": "ANA as a screening test, anti-dsDNA and anti-Sm antibodies, complement levels (C3, C4), full blood count, kidney function with urine testing for protein, and inflammatory markers; refer to rheumatology.",
+    "management": "Rheumatology-led care: hydroxychloroquine for most patients, sun protection, steroids at the lowest effective dose and immunosuppressants for organ involvement, with monitoring of kidney function and cardiovascular risk.",
+    "differentiate": "Rheumatoid arthritis, viral infections (parvovirus, HIV), drug-induced lupus and other connective tissue diseases can look similar.",
+    "references": ["EULAR recommendations for the management of SLE (2023)", "EULAR/ACR SLE classification criteria (2019)", "NHS - Lupus"]
+  },
+  "Acute otitis media": {
+    "display": "Acute otitis media",
+    "overview": "Acute otitis media is a middle ear infection, most common in young children and often after a cold, causing ear pain, fever, irritability, ear pulling, reduced hearing and sometimes discharge if the eardrum bursts. Most cases settle within 3 days.",
+    "red_flags": "Swelling or redness behind the ear (mastoiditis), severe headache, neck stiffness, facial weakness, confusion, a very unwell child, or fever in a baby under 3 months.",
+    "next_steps": "Examine the eardrum with an otoscope (bulging, red drum or discharge) and look for complications; consider immune status and repeated infections.",
+    "management": "Pain relief with paracetamol or ibuprofen; no antibiotic or a delayed prescription for most; immediate antibiotics if systemically unwell, under 2 years with infection in both ears, or with ear discharge; review if not improving in 3 days.",
+    "differentiate": "Otitis externa causes a painful ear canal that hurts when the ear is moved. Pain can be referred from teeth or throat. Glue ear (otitis media with effusion) lacks acute symptoms.",
+    "references": ["NICE NG91 Otitis media (acute): antimicrobial prescribing", "American Academy of Pediatrics acute otitis media guideline (2013)"]
+  },
+  "Bronchitis": {
+    "display": "Acute bronchitis",
+    "overview": "Acute bronchitis is inflammation of the larger airways, usually viral, causing a cough with or without sputum lasting up to 3 weeks, sometimes with wheeze, chest discomfort, mild fever and tiredness; it often follows a cold.",
+    "red_flags": "High fever, breathlessness, chest pain, confusion or low oxygen (consider pneumonia), coughing blood, symptoms lasting beyond 3 weeks, or frailty and significant other illness.",
+    "next_steps": "Clinical diagnosis with chest examination for localised signs; consider CRP or chest X-ray if pneumonia is suspected; consider other diagnoses if the cough persists.",
+    "management": "Self-care with fluids, rest, pain relief and honey for cough (over 1 year old); antibiotics are usually not needed unless high risk or pneumonia is suspected; stop smoking; advise when to seek help.",
+    "differentiate": "Pneumonia has localised chest signs, fever and X-ray changes. Asthma causes recurrent wheeze with variable airflow. Whooping cough causes coughing fits. A COPD exacerbation occurs in known COPD.",
+    "references": ["NICE NG120 Cough (acute): antimicrobial prescribing", "CDC - Chest cold (acute bronchitis)", "NHS - Bronchitis"]
+  },
+  "Acute rhinosinusitis": {
+    "display": "Acute rhinosinusitis",
+    "overview": "Acute rhinosinusitis is inflammation of the nose and sinuses, usually viral, lasting less than 12 weeks: nasal blockage, discoloured discharge, facial pain or pressure, reduced sense of smell and cough. Bacterial infection is suspected when symptoms last over 10 days, are severe, or get worse after initial improvement.",
+    "red_flags": "Swelling or redness around the eye, double or reduced vision, severe headache, neck stiffness, confusion or forehead swelling: possible spread to the eye socket or brain needing emergency referral.",
+    "next_steps": "Clinical diagnosis; imaging is not routinely needed, with CT only if complications are suspected.",
+    "management": "Self-care with pain relief and saline rinses; a steroid nasal spray if symptoms last over 10 days; antibiotics only for suspected bacterial infection or high-risk patients.",
+    "differentiate": "The common cold is shorter and milder. Allergic rhinitis causes itch, sneezing and clear triggers. Chronic rhinosinusitis lasts over 12 weeks. Dental infection and migraine or cluster headache can cause facial pain.",
+    "references": ["NICE NG79 Sinusitis (acute): antimicrobial prescribing", "EPOS 2020 European Position Paper on Rhinosinusitis", "IDSA acute bacterial rhinosinusitis guideline"]
+  },
+  "Sarcoidosis": {
+    "display": "Sarcoidosis",
+    "overview": "Sarcoidosis is a multi-system inflammatory disease that forms small clusters of immune cells (granulomas), most often in the lungs and lymph nodes. It causes dry cough, breathlessness, chest discomfort, tiredness, fever, weight loss, skin lesions such as tender red lumps on the shins, eye inflammation and joint pain, mostly in adults aged 20-50.",
+    "red_flags": "Heart involvement (palpitations, fainting, heart block), eye inflammation with visual symptoms, neurological symptoms, high calcium, or progressive lung scarring.",
+    "next_steps": "Chest X-ray or CT (enlarged lymph nodes at both lung roots), lung function tests, blood calcium and ACE (supportive), ECG and eye examination; a tissue biopsy confirms granulomas and excludes TB and lymphoma.",
+    "management": "Many cases settle on their own and need monitoring only; steroids or other immunosuppressants are used for organ-threatening or troublesome disease under respiratory specialist care.",
+    "differentiate": "Tuberculosis, lymphoma, lung cancer, fungal infections and hypersensitivity pneumonitis can look similar; biopsy and microbiology distinguish them.",
+    "references": ["ERS clinical practice guidelines on treatment of sarcoidosis (2021)", "ATS clinical practice guideline on diagnosis of sarcoidosis (2020)", "NHS - Sarcoidosis"]
+  },
+  "Pericarditis": {
+    "display": "Pericarditis",
+    "overview": "Pericarditis is inflammation of the sac around the heart, often viral or of unknown cause. It causes sharp central chest pain that is worse lying flat and on breathing in, and relieved by sitting up and leaning forward, sometimes with fever, a scratching sound on listening (friction rub) and a recent viral illness.",
+    "red_flags": "Fever above 38 C, a large fluid collection around the heart or tamponade (low blood pressure, raised neck veins, quiet heart sounds), raised troponin suggesting heart muscle involvement, immunosuppression, trauma, anticoagulant use, or no response to treatment.",
+    "next_steps": "ECG (widespread ST elevation, PR depression), troponin, inflammatory markers (CRP), chest X-ray and echocardiography to look for fluid.",
+    "management": "Anti-inflammatory treatment (NSAID or aspirin) plus colchicine with stomach protection, rest from strenuous activity until resolved, admission for high-risk features and treatment of the underlying cause.",
+    "differentiate": "Acute coronary syndrome pain does not change with position and ECG changes follow one artery. Myocarditis has a troponin rise and reduced heart function. Pulmonary embolism and pneumothorax also cause pain on breathing in.",
+    "references": ["ESC Guidelines for the diagnosis and management of pericardial diseases (2015)", "NHS - Pericarditis"]
+  },
+  "Panic attack": {
+    "display": "Panic attack",
+    "overview": "A panic attack is a sudden episode of intense fear peaking within minutes, with palpitations, sweating, trembling, breathlessness or a choking feeling, chest discomfort, dizziness, tingling, feeling detached and fear of dying or losing control. Attacks are often recurrent (panic disorder) and linked to anxiety.",
+    "red_flags": "A first episode in an older adult or someone with cardiovascular risk factors, chest pain on exertion, fainting, or abnormal vital signs or ECG: exclude heart, lung, thyroid and drug-related causes before diagnosing panic.",
+    "next_steps": "Exclude physical causes as appropriate (ECG, oxygen saturation, glucose, thyroid function, drug and caffeine use) and screen for anxiety disorders, depression and suicidal thoughts.",
+    "management": "Reassurance and slow breathing techniques during attacks, explanation of the condition, cognitive behavioural therapy and SSRIs for panic disorder; avoid long-term benzodiazepines; reduce caffeine and stimulants.",
+    "differentiate": "Acute coronary syndrome, arrhythmias such as PSVT or atrial fibrillation, pulmonary embolism, asthma, overactive thyroid, low blood sugar and anaphylaxis can all cause similar symptoms.",
+    "references": ["NICE CG113 Generalised anxiety disorder and panic disorder in adults", "NHS - Panic disorder"]
+  },
+  "URTI": {
+    "display": "Upper respiratory tract infection (common cold)",
+    "overview": "An upper respiratory tract infection (common cold) is a viral infection of the nose and throat causing runny or blocked nose, sneezing, sore throat, cough, mild fever and feeling unwell. It settles on its own, typically in 7-10 days, though cough can last longer.",
+    "red_flags": "Breathlessness, chest pain, high or persistent fever, confusion, severe sore throat with drooling, getting worse after initially improving, or symptoms in very young babies or immunosuppressed patients.",
+    "next_steps": "Clinical diagnosis with no routine tests; consider influenza or COVID-19 testing when it would change management.",
+    "management": "Self-care with rest, fluids, paracetamol or ibuprofen and saline nasal sprays; antibiotics do not help; hand hygiene reduces spread; advise when to seek help.",
+    "differentiate": "Influenza starts suddenly with high fever and muscle aches. Allergic rhinitis causes itch and has triggers without fever. Acute sinusitis causes facial pain lasting over 10 days. Streptococcal sore throat and pneumonia are other possibilities.",
+    "references": ["NICE CKS - Common cold", "CDC - Common cold", "NHS - Common cold"]
+  },
+  "Chronic rhinosinusitis": {
+    "display": "Chronic rhinosinusitis",
+    "overview": "Chronic rhinosinusitis is inflammation of the nose and sinuses lasting 12 weeks or more, with nasal blockage or discharge plus facial pressure and/or reduced sense of smell, with or without nasal polyps. It is associated with asthma, allergies and aspirin sensitivity.",
+    "red_flags": "Symptoms on one side only, bleeding, crusting, facial swelling, eye symptoms such as displacement or double vision, or severe headache or neurological signs: urgent ENT referral.",
+    "next_steps": "Nasal examination including endoscopy by ENT; CT of the sinuses if surgery is considered or the diagnosis is uncertain; assess for asthma and allergies.",
+    "management": "Daily saline rinses and a steroid nasal spray for at least 3 months, treatment of allergies, and ENT referral if not improving, where options include endoscopic sinus surgery or biologic treatment for severe polyp disease.",
+    "differentiate": "Allergic rhinitis, recurrent acute sinusitis, nasal polyps, a deviated septum and sinonasal tumours (one-sided, bleeding) can cause similar symptoms.",
+    "references": ["EPOS 2020 European Position Paper on Rhinosinusitis", "NICE CKS - Sinusitis", "AAO-HNS adult sinusitis guideline"]
+  }
+}

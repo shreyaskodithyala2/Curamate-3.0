@@ -1,0 +1,885 @@
+{
+  "_about": "Plain-language phrases a clinician might type, mapped to DDXPlus question codes. Each phrase is embedded as its own document so free text matches even when worded differently from the formal question.",
+  "E_91": [
+    "fever",
+    "high temperature",
+    "feverish",
+    "pyrexia"
+  ],
+  "E_53": [
+    "pain",
+    "chest pain",
+    "headache",
+    "abdominal pain",
+    "stomach pain",
+    "back pain",
+    "aching"
+  ],
+  "E_159": [
+    "loss of consciousness",
+    "fainted",
+    "passed out",
+    "syncope"
+  ],
+  "E_129": [
+    "skin rash",
+    "skin lesions",
+    "red skin",
+    "hives",
+    "spots on the skin"
+  ],
+  "E_154": [
+    "pale skin",
+    "pallor",
+    "looks pale"
+  ],
+  "E_155": [
+    "palpitations",
+    "heart racing",
+    "fast heartbeat",
+    "pounding heart"
+  ],
+  "E_210": [
+    "vomiting blood",
+    "coffee ground vomit",
+    "haematemesis"
+  ],
+  "E_140": [
+    "black stools",
+    "tarry stool",
+    "melaena"
+  ],
+  "E_51": [
+    "diarrhoea",
+    "diarrhea",
+    "loose stools",
+    "frequent bowel movements"
+  ],
+  "E_75": [
+    "choking sensation",
+    "feeling of suffocation"
+  ],
+  "E_89": [
+    "fatigue",
+    "tiredness",
+    "poor sleep",
+    "exhausted"
+  ],
+  "E_114": [
+    "irritability",
+    "mood swings",
+    "unstable mood"
+  ],
+  "E_82": [
+    "dizziness",
+    "lightheaded",
+    "feeling faint",
+    "near fainting"
+  ],
+  "E_148": [
+    "nausea",
+    "vomiting",
+    "feeling sick"
+  ],
+  "E_94": [
+    "chills",
+    "shivering",
+    "rigors"
+  ],
+  "E_220": [
+    "pain on deep breathing",
+    "pleuritic chest pain",
+    "hurts to breathe in"
+  ],
+  "E_161": [
+    "loss of appetite",
+    "early satiety",
+    "gets full quickly"
+  ],
+  "E_179": [
+    "blood in stool",
+    "rectal bleeding",
+    "bright red blood from the rectum"
+  ],
+  "E_162": [
+    "weight loss",
+    "unintentional weight loss"
+  ],
+  "E_173": [
+    "heartburn",
+    "acid reflux",
+    "burning in the throat",
+    "bitter taste in mouth"
+  ],
+  "E_33": [
+    "pain better leaning forward",
+    "pain eased by sitting forward"
+  ],
+  "E_218": [
+    "worse with exertion",
+    "symptoms on exertion relieved by rest",
+    "breathless on stairs",
+    "chest tightness on exercise"
+  ],
+  "E_93": [
+    "numbness in the feet",
+    "tingling in the feet",
+    "pins and needles in feet"
+  ],
+  "E_66": [
+    "shortness of breath",
+    "breathlessness",
+    "difficulty breathing",
+    "dyspnoea",
+    "can't breathe",
+    "short of breath"
+  ],
+  "E_163": [
+    "vaginal discharge"
+  ],
+  "E_30": [
+    "bloating",
+    "abdominal distension",
+    "swollen belly"
+  ],
+  "E_127": [
+    "watery eyes",
+    "excessive tearing"
+  ],
+  "E_181": [
+    "runny nose",
+    "nasal congestion",
+    "blocked nose",
+    "stuffy nose"
+  ],
+  "E_88": [
+    "extreme tiredness",
+    "stuck in bed",
+    "unable to do usual activities"
+  ],
+  "E_43": [
+    "seizure",
+    "convulsions",
+    "fit",
+    "absence episode"
+  ],
+  "E_156": [
+    "facial droop",
+    "one-sided facial weakness",
+    "facial paralysis"
+  ],
+  "E_144": [
+    "muscle aches",
+    "body aches",
+    "myalgia",
+    "widespread muscle pain"
+  ],
+  "E_216": [
+    "pain worse with movement"
+  ],
+  "E_201": [
+    "cough",
+    "coughing"
+  ],
+  "E_217": [
+    "worse lying down",
+    "orthopnoea",
+    "better sitting up"
+  ],
+  "E_215": [
+    "worse after eating",
+    "pain after meals"
+  ],
+  "E_64": [
+    "breathless with minimal effort",
+    "out of breath easily"
+  ],
+  "E_96": [
+    "weight gain",
+    "gained weight recently"
+  ],
+  "E_50": [
+    "sweating",
+    "sweaty",
+    "diaphoresis",
+    "night sweats"
+  ],
+  "E_97": [
+    "sore throat",
+    "throat pain",
+    "pharyngitis",
+    "throat hurts",
+    "painful throat"
+  ],
+  "E_9": [
+    "swollen lymph nodes",
+    "swollen glands",
+    "lymphadenopathy"
+  ],
+  "E_76": [
+    "slightly dizzy",
+    "mild lightheadedness"
+  ],
+  "E_65": [
+    "difficulty swallowing",
+    "dysphagia",
+    "painful swallowing"
+  ],
+  "E_74": [
+    "red eyes",
+    "eye redness",
+    "bloodshot eyes"
+  ],
+  "E_205": [
+    "jaw pain",
+    "lockjaw",
+    "unable to open mouth",
+    "trismus"
+  ],
+  "E_63": [
+    "slurred speech",
+    "difficulty speaking",
+    "dysarthria"
+  ],
+  "E_128": [
+    "brief choking episodes",
+    "brief inability to breathe or speak"
+  ],
+  "E_190": [
+    "drooling",
+    "excess saliva",
+    "hypersalivation"
+  ],
+  "E_39": [
+    "confusion",
+    "disorientation",
+    "confused"
+  ],
+  "E_212": [
+    "hoarse voice",
+    "voice change",
+    "hoarseness",
+    "muffled voice"
+  ],
+  "E_206": [
+    "mouth ulcers",
+    "mouth sores",
+    "oral ulcers"
+  ],
+  "E_52": [
+    "double vision",
+    "diplopia"
+  ],
+  "E_203": [
+    "coughing fits",
+    "intense coughing spells",
+    "paroxysmal cough"
+  ],
+  "E_38": [
+    "jaw weakness",
+    "jaw pain or weakness"
+  ],
+  "E_172": [
+    "drooping eyelid",
+    "ptosis",
+    "difficulty opening eyes"
+  ],
+  "E_84": [
+    "weakness in arms and legs",
+    "limb weakness",
+    "weak legs"
+  ],
+  "E_90": [
+    "weakness worse with fatigue",
+    "fatigable muscle weakness"
+  ],
+  "E_211": [
+    "repeated vomiting",
+    "retching"
+  ],
+  "E_166": [
+    "vomiting after coughing",
+    "post-tussive vomiting"
+  ],
+  "E_112": [
+    "wheeze after coughing",
+    "noisy breathing after cough",
+    "whoop"
+  ],
+  "E_178": [
+    "easy bruising",
+    "unusual bleeding"
+  ],
+  "E_151": [
+    "swelling",
+    "oedema",
+    "edema",
+    "swollen leg",
+    "swollen face",
+    "swollen ankles",
+    "swollen lips",
+    "lip swelling",
+    "facial swelling",
+    "swollen tongue"
+  ],
+  "E_45": [
+    "coughing up blood",
+    "haemoptysis",
+    "blood in sputum"
+  ],
+  "E_194": [
+    "stridor",
+    "high pitched sound when breathing in",
+    "noisy breathing in"
+  ],
+  "E_83": [
+    "weakness of face or eye muscles"
+  ],
+  "E_157": [
+    "tingling around the mouth and limbs",
+    "numbness in arms and legs",
+    "perioral tingling"
+  ],
+  "E_176": [
+    "paralysis",
+    "weakness in a limb",
+    "limb or face weakness"
+  ],
+  "E_42": [
+    "exposure to allergen",
+    "ate something they are allergic to",
+    "contact with allergen"
+  ],
+  "E_214": [
+    "wheezing",
+    "wheeze",
+    "wheeze on breathing out"
+  ],
+  "E_150": [
+    "passing stool or gas"
+  ],
+  "E_32": [
+    "decreased appetite",
+    "eating less"
+  ],
+  "E_221": [
+    "pain worse with coughing or straining",
+    "pain worse when lifting"
+  ],
+  "E_202": [
+    "whooping cough"
+  ],
+  "E_219": [
+    "worse at night",
+    "night-time symptoms",
+    "nocturnal cough"
+  ],
+  "E_170": [
+    "itchy eyes"
+  ],
+  "E_77": [
+    "productive cough",
+    "coloured sputum",
+    "green phlegm",
+    "yellow mucus",
+    "cough with phlegm"
+  ],
+  "E_13": [
+    "symptoms worsening over the last two weeks",
+    "pain brought on by less and less effort"
+  ],
+  "E_14": [
+    "chest pain at rest",
+    "pain even at rest"
+  ],
+  "E_169": [
+    "itchy nose",
+    "itchy throat"
+  ],
+  "E_177": [
+    "numbness or tingling",
+    "pins and needles",
+    "loss of sensation"
+  ],
+  "E_175": [
+    "malaise",
+    "feeling unwell",
+    "general discomfort",
+    "new fatigue"
+  ],
+  "E_174": [
+    "weight loss or loss of appetite"
+  ],
+  "E_145": [
+    "heavy periods",
+    "long menstrual periods",
+    "menorrhagia"
+  ],
+  "E_92": [
+    "red cheeks",
+    "flushing",
+    "facial flushing"
+  ],
+  "E_192": [
+    "stiff neck",
+    "neck spasm",
+    "torticollis",
+    "can't turn head"
+  ],
+  "E_188": [
+    "pale stools and dark urine",
+    "dark urine"
+  ],
+  "E_164": [
+    "very irregular heartbeat",
+    "chaotic heartbeat"
+  ],
+  "E_193": [
+    "muscle spasms",
+    "involuntary muscle contractions"
+  ],
+  "E_168": [
+    "tongue protrusion",
+    "trouble keeping tongue in mouth"
+  ],
+  "E_180": [
+    "eyes rolling up",
+    "unable to control eye movements",
+    "oculogyric crisis"
+  ],
+  "E_67": [
+    "waking up breathless at night",
+    "paroxysmal nocturnal dyspnoea",
+    "choking at night"
+  ],
+  "E_171": [
+    "feeling detached",
+    "depersonalisation",
+    "derealisation"
+  ],
+  "E_111": [
+    "fear of dying",
+    "sense of doom",
+    "feeling like dying"
+  ],
+  "E_182": [
+    "green nasal discharge",
+    "yellow nasal discharge",
+    "purulent nasal discharge"
+  ],
+  "E_103": [
+    "loss of smell",
+    "anosmia"
+  ],
+  "E_23": [
+    "stops breathing during sleep",
+    "sleep apnoea episodes",
+    "snoring with pauses"
+  ],
+  "E_16": [
+    "anxiety",
+    "feeling anxious"
+  ],
+  "E_102": [
+    "consulting for high blood pressure"
+  ],
+  "E_196": [
+    "recent surgery",
+    "operation in the last month"
+  ],
+  "E_78": [
+    "heavy alcohol use",
+    "alcoholism",
+    "drinks a lot of alcohol"
+  ],
+  "E_146": [
+    "taking anticoagulants",
+    "on blood thinners",
+    "NOAC"
+  ],
+  "E_105": [
+    "previous heart attack",
+    "known angina",
+    "history of MI"
+  ],
+  "E_108": [
+    "poor circulation",
+    "peripheral vascular disease"
+  ],
+  "E_104": [
+    "high blood pressure",
+    "hypertension"
+  ],
+  "E_79": [
+    "smoker",
+    "smokes cigarettes",
+    "smoking"
+  ],
+  "E_71": [
+    "high cholesterol",
+    "hyperlipidaemia"
+  ],
+  "E_41": [
+    "contact with a sick person",
+    "sick contacts"
+  ],
+  "E_100": [
+    "taking hormones",
+    "oral contraceptive pill",
+    "HRT"
+  ],
+  "E_69": [
+    "diabetes",
+    "diabetic"
+  ],
+  "E_167": [
+    "pregnant",
+    "pregnancy"
+  ],
+  "E_115": [
+    "unprotected sex with multiple partners"
+  ],
+  "E_70": [
+    "obesity",
+    "overweight"
+  ],
+  "E_10": [
+    "taking NSAIDs",
+    "anti-inflammatory drugs",
+    "ibuprofen use"
+  ],
+  "E_165": [
+    "family history of pneumothorax"
+  ],
+  "E_8": [
+    "on dialysis"
+  ],
+  "E_25": [
+    "family history of cluster headache"
+  ],
+  "E_184": [
+    "vasodilator medication"
+  ],
+  "E_185": [
+    "head injury",
+    "previous head trauma"
+  ],
+  "E_99": [
+    "history of migraine",
+    "family history of migraine"
+  ],
+  "E_107": [
+    "previous stroke"
+  ],
+  "E_226": [
+    "prone to allergies",
+    "atopy",
+    "allergic tendency"
+  ],
+  "E_62": [
+    "stimulant drug use",
+    "cocaine",
+    "amphetamines"
+  ],
+  "E_49": [
+    "works in a daycare",
+    "attends daycare"
+  ],
+  "E_95": [
+    "Parkinson's disease"
+  ],
+  "E_37": [
+    "metastatic cancer"
+  ],
+  "E_153": [
+    "treated for osteoporosis"
+  ],
+  "E_124": [
+    "history of asthma",
+    "uses an inhaler",
+    "bronchodilator use"
+  ],
+  "E_98": [
+    "hiatal hernia"
+  ],
+  "E_116": [
+    "recent cold",
+    "cold in the last two weeks"
+  ],
+  "E_48": [
+    "lives with four or more people",
+    "crowded household"
+  ],
+  "E_2": [
+    "HIV positive",
+    "has HIV"
+  ],
+  "E_227": [
+    "immunosuppressed",
+    "weakened immune system"
+  ],
+  "E_61": [
+    "intravenous drug use",
+    "injects drugs"
+  ],
+  "E_47": [
+    "Crohn's disease",
+    "ulcerative colitis",
+    "inflammatory bowel disease"
+  ],
+  "E_27": [
+    "previous sexually transmitted infection",
+    "history of STI"
+  ],
+  "E_143": [
+    "exercises regularly"
+  ],
+  "E_191": [
+    "former smoker",
+    "ex-smoker"
+  ],
+  "E_208": [
+    "underweight",
+    "low BMI"
+  ],
+  "E_126": [
+    "liver cirrhosis"
+  ],
+  "E_189": [
+    "HIV-positive partner"
+  ],
+  "E_7": [
+    "poor diet"
+  ],
+  "E_24": [
+    "history of anaemia"
+  ],
+  "E_26": [
+    "family history of anaemia"
+  ],
+  "E_113": [
+    "chronic kidney failure",
+    "chronic kidney disease"
+  ],
+  "E_160": [
+    "born prematurely",
+    "complications at birth"
+  ],
+  "E_28": [
+    "family history of myasthenia gravis"
+  ],
+  "E_20": [
+    "rheumatoid arthritis"
+  ],
+  "E_80": [
+    "depression"
+  ],
+  "E_40": [
+    "contact with whooping cough"
+  ],
+  "E_0": [
+    "recent viral infection"
+  ],
+  "E_1": [
+    "recent antibiotics for an ear infection"
+  ],
+  "E_34": [
+    "active cancer"
+  ],
+  "E_209": [
+    "vaccinations up to date"
+  ],
+  "E_139": [
+    "heart defect",
+    "congenital heart disease"
+  ],
+  "E_19": [
+    "hyperthyroidism",
+    "overactive thyroid"
+  ],
+  "E_31": [
+    "severe COPD"
+  ],
+  "E_22": [
+    "heart valve problem",
+    "valve disease"
+  ],
+  "E_60": [
+    "drinks energy drinks"
+  ],
+  "E_35": [
+    "drinks coffee or tea regularly"
+  ],
+  "E_213": [
+    "recent decongestant use",
+    "took a stimulant medicine"
+  ],
+  "E_12": [
+    "severe food allergy",
+    "food allergy",
+    "peanut allergy"
+  ],
+  "E_44": [
+    "takes corticosteroids",
+    "on steroids"
+  ],
+  "E_4": [
+    "history of croup",
+    "family history of croup"
+  ],
+  "E_81": [
+    "chronic anxiety",
+    "anxiety disorder"
+  ],
+  "E_109": [
+    "previous DVT",
+    "history of blood clot",
+    "deep vein thrombosis"
+  ],
+  "E_110": [
+    "bedridden for 3 days",
+    "recent immobility",
+    "immobilised"
+  ],
+  "E_17": [
+    "Asian descent"
+  ],
+  "E_18": [
+    "cystic fibrosis"
+  ],
+  "E_118": [
+    "previous pneumonia"
+  ],
+  "E_123": [
+    "COPD",
+    "emphysema",
+    "chronic bronchitis"
+  ],
+  "E_207": [
+    "lives in a big city"
+  ],
+  "E_86": [
+    "family history of allergies",
+    "family eczema or hay fever"
+  ],
+  "E_87": [
+    "family history of asthma"
+  ],
+  "E_141": [
+    "first period before age 12"
+  ],
+  "E_11": [
+    "breastfed for more than 9 months"
+  ],
+  "E_186": [
+    "obstructive sleep apnoea"
+  ],
+  "E_106": [
+    "heart failure"
+  ],
+  "E_158": [
+    "endocrine disease",
+    "hormone disorder"
+  ],
+  "E_187": [
+    "ate tuna",
+    "ate dark-fleshed fish",
+    "ate Swiss cheese"
+  ],
+  "E_6": [
+    "chronic pancreatitis"
+  ],
+  "E_125": [
+    "history of reflux",
+    "known GERD"
+  ],
+  "E_21": [
+    "previous pneumothorax",
+    "collapsed lung before"
+  ],
+  "E_222": [
+    "second-hand smoke exposure",
+    "passive smoking"
+  ],
+  "E_15": [
+    "recently started antipsychotic",
+    "antipsychotic medication"
+  ],
+  "E_147": [
+    "recent sedative injection in hospital",
+    "recent haloperidol injection"
+  ],
+  "E_137": [
+    "lymph nodes surgically removed"
+  ],
+  "E_149": [
+    "takes calcium channel blocker"
+  ],
+  "E_197": [
+    "nephrotic syndrome",
+    "kidney disease losing protein"
+  ],
+  "E_3": [
+    "previous pericarditis"
+  ],
+  "E_29": [
+    "family psychiatric illness"
+  ],
+  "E_225": [
+    "family history of early heart disease"
+  ],
+  "E_73": [
+    "contact with Ebola"
+  ],
+  "E_138": [
+    "fibromyalgia"
+  ],
+  "E_101": [
+    "hospitalised for asthma in the last year"
+  ],
+  "E_46": [
+    "frequent asthma attacks"
+  ],
+  "E_119": [
+    "diagnosed chronic sinusitis"
+  ],
+  "E_72": [
+    "COPD flare-ups in the last year"
+  ],
+  "E_198": [
+    "works in agriculture",
+    "farmer"
+  ],
+  "E_200": [
+    "works in mining",
+    "miner"
+  ],
+  "E_199": [
+    "works in construction"
+  ],
+  "E_121": [
+    "deviated nasal septum"
+  ],
+  "E_120": [
+    "nasal polyps"
+  ],
+  "E_142": [
+    "mother has asthma"
+  ],
+  "E_195": [
+    "lives in the suburbs"
+  ],
+  "E_183": [
+    "lives in a rural area"
+  ],
+  "E_224": [
+    "family history of lung cancer"
+  ],
+  "E_223": [
+    "family history of pancreatic cancer"
+  ],
+  "E_5": [
+    "previous fluid in the lungs",
+    "history of pulmonary oedema"
+  ]
+}
